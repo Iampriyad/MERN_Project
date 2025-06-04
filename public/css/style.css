@@ -1,0 +1,129 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    height: 100%;
+}
+
+.navbar{
+    height: 5 rem;
+}
+
+.fa-plane{
+    color :rgb(201, 42, 42);
+    font-size: 2rem;
+}
+
+/* navbar */
+.navbar{
+    color:#222222 !important;
+    background-color: white;
+    /* opacity:1; */
+}
+
+
+/* footer */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right : 1rem;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: rgb(204, 202, 202);
+    display:flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: space-evenly;
+
+}
+
+/* cards */
+.listing-card{
+    border:none !important;
+    margin-bottom: 2rem;
+
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width:100% !important;
+    object-fit: cover !important;
+}
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity : 0;
+
+}
+.card-img-overlay:hover{
+    opacity : 0.2;
+    background-color: white;
+}
+
+.add-btn,.edit-btn{
+    background-color: rgb(201, 42, 42) !important;
+    border: none !important;
+}
+
+/* Show-Page */
+.show-img{
+    height:30vh;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap ;
+    align-items: space-evenly;
+
+}
+
+.btns a {
+    background-color: rgb(201, 42, 42) !important;
+    border: none !important;
+}
+
+/* Map */
+#map {
+    height:400px;
+    width:80vh;
+}
